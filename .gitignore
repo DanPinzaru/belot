@@ -1,0 +1,13 @@
+/app/config/local
+/app/storage
+/bootstrap/compiled.php
+/tests/_data/dump.sql
+/tests/_log
+/vendor
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+.DS_Store
+Thumbs.db
+.project
