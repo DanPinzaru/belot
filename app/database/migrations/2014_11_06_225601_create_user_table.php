@@ -13,12 +13,12 @@ class CreateUserTable extends Migration {
 	public function up()
 	{
 		DB::statement("CREATE TABLE db_belot.user (
-  			id INT NOT NULL AUTO_INCREMENT,
+  			id INT UNSIGNED NOT NULL AUTO_INCREMENT,
   			email VARCHAR(45) NOT NULL,
   			first_name VARCHAR(45) NOT NULL,
   			last_name VARCHAR(45) NOT NULL,
-  			dob DATE NOT NULL,
-  			type VARCHAR(45) NOT NULL,
+  			date_of_birth DATE NOT NULL,
+  			user_type VARCHAR(45) NOT NULL,
   			created_at TIMESTAMP NOT NULL,
   			updated_at TIMESTAMP NOT NULL,
   			remember_token VARCHAR(100) NOT NULL,
